@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/cat1"
+            android:id="@+id/img"
+            android:layout_width="130dp"
+            android:layout_height="130dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtName"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:text="Cat 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txtPrice"
+                android:text="12000"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txtDescribe"
+                android:textSize="22dp"
+                android:text="Đẹp long lanh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/bt1"
+            android:textSize="26dp"
+            android:text="Remove"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

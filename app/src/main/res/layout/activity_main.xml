@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Input a new product"
+        android:textSize="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/img"
+        android:entries="@array/reImg"
+        android:textSize="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/name"
+        android:textSize="22dp"
+        android:hint="enter name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/price"
+        android:textSize="22dp"
+        android:hint="enter price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/describe"
+        android:textSize="22dp"
+        android:hint="enter describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_marginLeft="100dp"
+        android:layout_width="250dp"
+        android:text="ADD"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
